@@ -5,10 +5,10 @@ const TodoList = () => {
 
     const [task, setTaskValue] = useState("");
     const [tasksList, setTaskList] = useState([]);
-    console.log(task)
+   
     const getTasksAPI = async () => {
         try {
-                const user = "juanmim";
+                const user = "juanmisaenz";
                 const url = "https://assets.breatheco.de/apis/fake/todos/user/" + user;
         
                 const request = {
@@ -28,7 +28,7 @@ const TodoList = () => {
             try {
                 const myHeaders = new Headers();
                 myHeaders.append("Content-Type", "application/json");
-                const usuario = "juanmim";
+                const usuario = "juanmisaenz";
                 const url =
                     "https://assets.breatheco.de/apis/fake/todos/user/" + usuario;
                 const request = {
@@ -66,7 +66,7 @@ const TodoList = () => {
         <div className="div-main">
             <div className="second-div">
                 <div className="form-group">
-                    <h1>TASKS</h1>
+                    <h1>TASKS TO DO</h1>
                     <input type="text" name="label" className="form-control" placeholder="Add new task" value={task} onChange={(e) => setTaskValue(e.target.value)} onKeyDown={(e) => handleKeyDown(e)}/>
                 </div> 
                 <div>

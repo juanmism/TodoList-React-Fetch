@@ -10,11 +10,22 @@ body {
 }
 .second-div{
     margin:0px auto;
-    margin-top: 150px;
+    margin-top: 50px;
     padding: 10px;
 }
 
 
 p {
-    color: red;
+    color: rgb(35, 11, 100);
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+h1 {
+    color: white;
 }
