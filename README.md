@@ -31,4 +31,4 @@
 
 <https://github.com/davidhu2000/react-spinners>
 
-💻 _Juan Miguel Sáenz Martel_ (<https://github.com/m4n50n>)
+💻 _Juan Miguel Sáenz Martel_ (<https://github.com/juanmism>)
