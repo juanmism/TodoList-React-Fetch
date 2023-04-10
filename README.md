@@ -1,42 +1,34 @@
-# Hello World with React boilerplate
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) TODO List with React and Fetch
 
-Start coding a react application
+![screenshot](https://github.com/juanmism/4Geeks-TodoList-React-Fetch/blob/main/todolist_screenshot.JPG)
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps].(#local-installation) and come back to this part of the readme.
+✏ *Creating a TODO list application that allows users to add tasks and mark / unmark them as complete with **React** and synchronizing them with a real database, using a **RESTful** and public API made for this exercise. Inspired in **./preview.gif***.
 
-## How to start coding?
+## Instructions 📄
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+* The tasks are added when the user enters any text and press the ***Enter*** key or press the ***Add*** button.
+* The *task completion icon* shows on the left of each task.
+* The user can add as many tasks as needed.
+* When there is no tasks the list will say *...No tasks... for now*.
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+## Preview 🎬
+* You can open this repository in **Gitpod**.
+* Start the webpack server with live reload running the next command: `$ npm run start`
+* If you can't start the server, run the following command: `$ npm install`
+* If you receive a react-bootstrap error, install it running the following command: `$ npm install react-bootstrap bootstrap@5.1.3`
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+## Sources 📌
 
-Download the boilerplate using git
+<https://learn.breatheco.de/course/full-stack.v4/17/p/todo-list-react-with-fetch>
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+<https://github.com/breatheco-de/exercise-todo-list-react-with-fetch>
 
-## Publish your website!
+<https://content.breatheco.de/lesson/understanding-rest-apis>
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+<http://assets.breatheco.de/apis/fake/todos/>
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+<https://react-bootstrap.github.io/getting-started/introduction>
 
-## Other features
+<https://github.com/davidhu2000/react-spinners>
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
-
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/react-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+💻 _Juan Miguel Sáenz Martel_ (<https://github.com/m4n50n>)
